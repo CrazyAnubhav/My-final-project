@@ -1,0 +1,43 @@
+<section id="navbar">
+  <div class="bg-img" id="header">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      
+      <!-- <a class="navbar-brand ml-3" routerLinkActive="true" routerLink="/">Mentor-On-Demand</a> -->
+      <button class="btn btn-2 btn-md text-white my-1" (click)="navToSearch()">Let's Search!</button>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li>
+            <button class="btn btn-2 btn-md text-white my-1" routerLink="/login" routerLinkActive="true"
+              style="width:130px;">Login</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="text-center bgtext">
+      <div class="container">
+     <p align="center" style="margin-top: 50px;"><img class="w3-animate-fading" src="http://www.pngmart.com/files/3/Welcome-PNG-Photos.png" alt="avater" style="height: 250px; width: 630px"> <br>
+        <p align="center"><img class="w3-animate-fading" src="../../assets/images/mentorondemand.png" style="width: 60%;" alt="avater">
+     </p>
+    </div>
+      <br><br><br>
+    </div>
+    <br/>
+    <div class="text-center">
+      <a class="btn btn-3 text-center" routerLink="/user-register" routerLinkActive="true" style="margin-right: 150px;">Register as User</a>
+      <a class="btn btn-4 text-center" routerLink="/trainer-register" routerLinkActive="true">Register as Mentor</a>
+    </div>
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="container">
+    <div class="copyright">
+      &copy; <strong>Mentor-On-Demand</strong><br/><small>All Rights Reserved</small>
+    </div>
+  </div>
+</footer>

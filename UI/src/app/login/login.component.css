@@ -1,0 +1,33 @@
+.pt-3, .py-3 {
+    padding-top: 3rem!important;
+}
+
+.container-fluid {
+    background-image: url("../../assets/images/img6000.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 2.00rem;
+    border-radius: 5.00rem;
+}
+
+#mydiv2
+{
+    border: 2px solid rgba(17, 16, 16, 0.5); 
+    border-radius: 15px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }

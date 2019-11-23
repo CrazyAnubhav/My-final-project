@@ -1,0 +1,35 @@
+.btn-1{
+    background-image: linear-gradient(to top, #c23889, #f521a4, #e72b73, #d4314c, #c42540);
+    border-radius: 1.5rem;
+}
+.container-fluid
+{   
+    background-image: url("../../assets/images/img106.jpg");
+    min-height: 657px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer {
+    background: #000;
+    padding: 0 0 30px 0;
+    color: #eee;
+    font-size: 14px;
+  }
+  
+  #footer .footer-top {
+    background: #111;
+    padding: 60px 0 30px 0;
+  }
+  
+  #footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .container {   
+    background-size: cover;  
+  }
+

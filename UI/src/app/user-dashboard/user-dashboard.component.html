@@ -1,0 +1,38 @@
+<!-- <app-user-navbar></app-user-navbar> -->
+
+<div id="container1">
+    <div class="topnav" id="myTopnav">
+        
+        
+        <a routerLink="/"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Cognizant_logo.svg/787px-Cognizant_logo.svg.png" alt="Image cannot be displayed!" width="80"></a>
+        <a class="nav-link" routerLink="/home" routerLinkActive="true"><button style="font-weight: bold" class="rounded btn btn-sm">Home <span class="sr-only">(current)</span></button></a>
+        <a routerLink="/search-trainings" class="nav-link">
+            <button style="font-weight: bold" class="rounded btn btn-sm">
+                Search Technology
+            </button>
+        </a>
+        <a routerLink="current-trainings" class="nav-link"><button style="font-weight: bold" class="rounded btn btn-sm">Current
+            Trainings</button></a>
+            <a routerLink="completed-trainings" class="nav-link"><button style="font-weight: bold" class="rounded btn btn-sm">Completed
+                Trainings</button></a>
+            <a routerLink="profile" class="nav-link"><button class="rounded btn btn-sm" style="font-weight: bold"> Profile </button></a>
+            <a routerLink="payment-info" class="nav-link"><button style="font-weight: bold" class="rounded btn btn-sm">Receipt</button></a>
+           
+            <a class="nav-link" style="float: right"> <button class="btn btn-sm btn-2" type="submit" (click)="logout()" style="font-weight: bold;"><i class="fas fa-sign-out-alt" style="margin-right: 10px;"></i>Logout</button></a>
+            <a class="nav-link" style="float: right"> <button class="btn btn-sm btn-1" type="submit" (click)="notification()" style="font-weight: bold;"><i class="fas fa-flag-checkered" style="margin-right: 10px;"></i>Notifications</button></a>
+          
+        </div>
+
+<router-outlet></router-outlet>
+<br>
+<footer class="fixed-bottom footer">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="font-weight: bold">© Mentor-On-Demand
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+</div>
+<!-- 
+<app-footer></app-footer> -->
